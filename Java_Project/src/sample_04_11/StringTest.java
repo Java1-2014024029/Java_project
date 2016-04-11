@@ -10,7 +10,7 @@ public class StringTest {
 		System.out.println("문자열의 길이 =" + proverb.length());
 		
 		s1 = proverb.concat (" never Bites!");
-		s2 = proverb.replave ('b','B');
+		s2 = proverb.replace ('b','B');
 		s3 = proverb.substring(2,5);
 		s4 = proverb.toUpperCase();
 		
