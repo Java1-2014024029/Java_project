@@ -27,6 +27,7 @@ public class Selection {
 				System.out.println("in is odd");
 				break;
 		}
+		input.close();
 	}
 
 }

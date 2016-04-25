@@ -1,11 +1,11 @@
 package sample_04_11;
 
 public class Television {
-	int channel;
-	int volume;
-	boolean onOff;
+	private int channel;
+	private int volume;
+	private boolean onOff;
 	
-	void pr(){
+	public void pr(){
 		System.out.println(channel+" "+volume+" "+onOff);
 	}
 
@@ -15,7 +15,7 @@ public class Television {
 	//	return vol;
 	//}
 	
-	void volumeUP(int data){
+	public void volumeUP(int data){
 		if(onOff == false){
 			System.out.println("TV Die");
 			return;//method 종료의 의미
@@ -25,7 +25,7 @@ public class Television {
 		//<-이것이 더 좋은 소스
 	}
 	
-	void volumeUP(){
+	public void volumeUP(){
 		if(onOff == false){
 			System.out.println("TV Die");
 			return;//method 종료의 의미
