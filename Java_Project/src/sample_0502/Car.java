@@ -1,7 +1,7 @@
 package sample_0502;
 
 public class Car {
-	private String model;
+	/*private String model;
 	private String color;
 	private int speed;
 	
@@ -16,5 +16,5 @@ public class Car {
 		id = ++numbers;
 	}
 	
-	static int Car_Numbers(){speed += 10 ; return numbers;}
+	static int Car_Numbers(){speed += 10 ; return numbers;}*/
 }

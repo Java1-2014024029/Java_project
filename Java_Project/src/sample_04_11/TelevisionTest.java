@@ -4,7 +4,7 @@ public class TelevisionTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Television mytv = new Television();
+	/*	Television mytv = new Television();
 		Television yourtv = new Television();
 		Television testtv = mytv;
 		
@@ -29,7 +29,7 @@ public class TelevisionTest {
 		//System.out.println(testtv.channel+" "+testtv.volume+" "+testtv.onOff);
 		testtv.pr();
 		//testtv = null;
-	}
+*/	}
 
 }
 //리모콘 만들기~!~!
